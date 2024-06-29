@@ -1,6 +1,6 @@
-<font size="8"> 
- *Crafted with Elegance and Efficiency*
- *Welcome to a minimalist web experience where simplicity meets sophistication.*
+<h3> 
+ _Crafted with Elegance and Efficiency_
+ <h2> *Welcome to a minimalist web experience where simplicity meets sophistication.*</h2>
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  _Key Features:_
@@ -13,9 +13,12 @@
 
 ✌Minimalist Design: Embrace clarity and elegance with our minimalist design ethos. Every element on our website serves a purpose, enhancing both functionality and aesthetics.
 
-</font>
+</h3>
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-https://github.com/HarshitaOberoi/Minimalist/assets/154910521/5d66a439-ee62-41d3-bb47-e61f679b2267
+
+
+https://github.com/HarshitaOberoi/Minimalist/assets/154910521/2ee2e8c2-7b6f-4c84-ab86-c8927e28a850
+
 
 
 ![29 06 2024_20 39 48_REC](https://github.com/HarshitaOberoi/Minimalist/assets/154910521/607969d5-c53f-4bab-beaf-ab23a4e3d600)
