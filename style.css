@@ -1,0 +1,255 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed";
+}
+.main{
+    height: 100%;
+    width: 90vw;
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    padding: 50px;
+    height: 6rem;
+    width: 100%;
+display: flex;
+justify-content: space-between;
+gap: 40px;
+}
+
+.left ,.center, .right{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+
+
+}
+ .left p ,.center p, .right p{
+    font-weight: 900;
+} 
+.start{
+    margin-top: 2;
+    margin-bottom: 14rem;
+    position: relative;
+    padding: 3px;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: space-around;
+}
+.ml{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 20rem;
+    width: 30rem;
+}
+
+.ml img{
+height: 70%;
+width: 60%;
+object-fit: cover;
+}
+.ml h1{
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+.ml p{
+    padding: 2px;
+    letter-spacing: 2px;
+    word-spacing:6px ;
+    font-weight: 400;
+    
+} 
+.mc{
+    display: flex;
+    position: absolute;
+    top:20%;
+    left: 46%;
+height: 100%;
+width:30%;
+flex-direction: column;
+text-align: left;
+
+}
+#first,#second{
+   
+    position: relative;
+    z-index: 3;
+    font-size: 4.5rem;
+    font-weight: 1200;
+    font-weight: 200;
+    letter-spacing: 3px;
+} 
+#first{
+    top: 4%;
+    
+    left:1%;
+}
+#second{
+    left: 1%;
+    top: 5%;
+}
+
+.mc img{
+    height:70% ;
+    width: 80%;
+    margin-bottom:20px ;
+    
+
+    
+
+
+}
+.mc h4{
+    padding: 2px;
+    letter-spacing: 2px;
+    word-spacing:6px ;
+    font-weight: 400;
+}
+
+
+.mr{
+     position: relative;
+    margin: 20px;
+    top: 60%;
+    left: 40%;
+    display: flex;
+    gap: 5px;
+}
+.mr span{
+    padding: 2px;
+    letter-spacing: 2px;
+    word-spacing:6px ;
+    font-weight: 400;
+}
+
+.middle{
+    margin-top: 10rem;
+    margin-bottom: 14rem;
+padding: 30px;
+    height: 40vh;
+    width: 100%;
+}
+.middle h5{
+    padding: 10px;
+    
+    font-size: 30px;
+    word-spacing:6px ;
+    font-weight: 400;
+}
+.middle h3{
+    text-align: right;
+    font-size: 1.5rem;
+    
+    padding: 2px;
+    letter-spacing: 2px;
+    word-spacing:6px ;
+    font-weight: 300;
+}
+
+.down{
+    margin-top: 5rem;
+    margin-bottom: 9rem;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.dl,.dr{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+   
+    
+
+}
+.dl img{
+height: 60%;
+width: 70%;
+}
+.dl p{
+    letter-spacing: 2px;
+    word-spacing:6px ;
+    font-weight: 500;
+}
+.dr img{
+    height: 100vh;
+    width: 22rem;
+}
+.end{
+    height: 70vh;
+    width: 100%;
+    padding-top:10px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+}
+.bimg img{
+height: 100%;
+width: 70%;
+object-fit: cover;
+margin-bottom: 20px;
+}
+.cont{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cont h2,.cont p{
+    letter-spacing: 2px;
+    word-spacing:6px ;
+    font-weight: 300;
+}
+.cont p{
+    font-weight: 700;
+}
+.empty{
+    position: relative;
+    margin-top: 40vh;
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    align-items: center;
+     
+}
+video{
+    position: absolute;
+    height: 100%;
+     opacity: 0;  
+z-index: -1;
+    width: 100vw;
+    
+    
+}
+.button{
+    background-color: gainsboro;
+    border: none;
+    border-radius: 50px;
+    padding: 20px;
+}
+.button:hover{
+ cursor: pointer;
+}
+.dabba{
+    background-color: whitesmoke;
+    opacity:0.6;
+}
